@@ -397,22 +397,7 @@ Attach screenshot of complete project structure from IDE.
 </databaseChangeLog>
 ```
 
----
 
-## Screenshot Required
-
-### Screenshot 5 — Changelog Files
-
-Attach screenshots of:
-
-* master.xml
-* v1-init.xml
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Changelog Files]
-```
 
 ---
 
@@ -430,6 +415,10 @@ Expected Result:
 * DATABASECHANGELOG table created
 * DATABASECHANGELOGLOCK table created
 
+
+
+<img width="1852" height="853" alt="image" src="https://github.com/user-attachments/assets/815f8639-739a-42f9-8fd4-04e2c0092b3d" />
+
 ---
 
 ## Verify Tables
@@ -444,43 +433,8 @@ DATABASECHANGELOG
 DATABASECHANGELOGLOCK
 ```
 
----
+<img width="1855" height="1053" alt="Screenshot from 2026-05-17 15-11-50" src="https://github.com/user-attachments/assets/c2236aa1-d3e5-4be0-a5e2-b652511f179b" />
 
-## Screenshot Required
-
-### Screenshot 6 — Migration Execution
-
-Attach screenshot of terminal showing:
-
-```bash
-liquibase update
-```
-
-successful execution.
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Migration Execution]
-```
-
----
-
-## Screenshot Required
-
-### Screenshot 7 — Database Tables
-
-Attach screenshot from pgAdmin/MySQL Workbench showing:
-
-* employee table
-* DATABASECHANGELOG
-* DATABASECHANGELOGLOCK
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Database Tables]
-```
 
 ---
 
@@ -498,19 +452,9 @@ Purpose:
 * Verify execution timestamps
 * Verify checksums
 
----
+<img width="1855" height="1053" alt="Screenshot from 2026-05-17 15-13-03" src="https://github.com/user-attachments/assets/86266789-1304-4d6d-9472-8561b8d89b02" />
 
-## Screenshot Required
 
-### Screenshot 8 — DATABASECHANGELOG Verification
-
-Attach screenshot of query output.
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — DATABASECHANGELOG]
-```
 
 ---
 
@@ -530,6 +474,9 @@ Example:
 </changeSet>
 ```
 
+<img width="1857" height="735" alt="image" src="https://github.com/user-attachments/assets/0d2b4fdd-5b70-4604-972a-b3fcc4149563" />
+
+
 ---
 
 ## Execute Migration Again
@@ -540,23 +487,8 @@ liquibase update
 
 Liquibase should execute only the new changeset.
 
----
+<img width="1858" height="651" alt="image" src="https://github.com/user-attachments/assets/a6e51332-ea44-46f8-a0b4-ee66326f61a4" />
 
-## Screenshot Required
-
-### Screenshot 9 — Incremental Migration
-
-Attach screenshot showing:
-
-* New changeset added
-* liquibase update execution
-* email column added
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Incremental Migration]
-```
 
 ---
 
@@ -569,6 +501,7 @@ Attach screenshot showing:
     <dropColumn tableName="employee" columnName="email"/>
 </rollback>
 ```
+<img width="1847" height="1009" alt="Screenshot from 2026-05-17 15-32-55" src="https://github.com/user-attachments/assets/76d549c9-14a0-4461-bc0c-b7edd1533fc7" />
 
 ---
 
@@ -582,23 +515,9 @@ Expected Result:
 
 * email column removed
 
----
+<img width="1085" height="452" alt="image" src="https://github.com/user-attachments/assets/bac9bfae-3135-467d-ab6f-6fdaad1d3cb1" />
 
-## Screenshot Required
 
-### Screenshot 10 — Rollback Execution
-
-Attach screenshot showing:
-
-* rollback command execution
-* schema before rollback
-* schema after rollback
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Rollback Execution]
-```
 
 ---
 
@@ -617,22 +536,7 @@ Purpose:
 * Conditional execution
 * Safer migrations
 
----
 
-## Screenshot Required
-
-### Screenshot 11 — Preconditions
-
-Attach screenshot showing:
-
-* Preconditions in changeset
-* Successful validation
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Preconditions]
-```
 
 ---
 
