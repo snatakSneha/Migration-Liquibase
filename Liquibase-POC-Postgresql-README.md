@@ -1,6 +1,6 @@
 # Liquibase POC Documentation
 
-# Table of Contents
+## Table of Contents
 
 1. [POC Objective](#1-poc-objective)
 2. [Scope of the POC](#2-scope-of-the-poc)
@@ -26,7 +26,7 @@
 
 ---
 
-# 1. POC Objective
+## 1. POC Objective
 
 The objective of this POC is to evaluate Liquibase as an enterprise database migration and schema versioning solution.
 
