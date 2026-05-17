@@ -269,25 +269,7 @@ If connection works properly, Liquibase connects successfully with PostgreSQL.
 
 ---
 
-## Screenshot Required
 
-### Screenshot 6 — Liquibase PostgreSQL Connection
-
-Attach screenshot showing:
-
-```bash
-liquibase status
-```
-
-successful execution.
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Liquibase PostgreSQL Connection]
-```
-
----
 
 # 7. Project Structure
 
@@ -306,19 +288,6 @@ project-root/
  └── liquibase.properties
 ```
 
----
-
-## Screenshot Required
-
-### Screenshot 4 — Project Structure
-
-Attach screenshot of complete project structure from IDE.
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Project Structure]
-```
 
 ---
 
