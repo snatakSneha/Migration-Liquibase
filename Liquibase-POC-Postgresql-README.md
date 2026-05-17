@@ -98,8 +98,6 @@ Install the following:
 ---
 
 
-Attach screenshot showing:
-
 ```bash
 java -version
 mvn -version
@@ -203,22 +201,8 @@ liquibase_poc
 
 should appear in database list.
 
----
+<img width="1855" height="1051" alt="Screenshot from 2026-05-17 15-01-03" src="https://github.com/user-attachments/assets/64617e24-dde4-45de-96fb-9af914e3ea88" />
 
-## Screenshot Required
-
-### Screenshot 4 — PostgreSQL Database Creation
-
-Attach screenshot showing:
-
-* liquibase_poc database created
-* Database visible inside pgAdmin
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — PostgreSQL Database Creation]
-```
 
 ---
 
@@ -252,22 +236,7 @@ changeLogFile=db/changelog/master.xml
 | driver        | PostgreSQL JDBC driver     |
 | changeLogFile | Main Liquibase changelog   |
 
----
 
-## Screenshot Required
-
-### Screenshot 5 — liquibase.properties File
-
-Attach screenshot showing:
-
-* liquibase.properties file
-* PostgreSQL JDBC configuration
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — liquibase.properties]
-```
 
 ---
 
