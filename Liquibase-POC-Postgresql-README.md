@@ -2,28 +2,27 @@
 
 # Table of Contents
 
-1. POC Objective
-2. Scope of the POC
-3. Technology Stack
-4. Environment Setup
-5. Liquibase Installation
-6. Database Setup
-7. Project Structure
-8. Creating Initial Changelog
-9. Running First Migration
-10. DATABASECHANGELOG Verification
-11. Adding Incremental Changes
-12. Rollback Demonstration
-13. Preconditions Demonstration
-14. Checksum Validation
-15. CI/CD Integration
-16. Relational Database Testing
-17. Non-Relational Database Testing
-18. Performance Observation
-19. Challenges Faced
-20. Final Findings
-21. Recommendation
-22. Screenshots Checklist
+1. [POC Objective](#1-poc-objective)
+2. [Scope of the POC](#2-scope-of-the-poc)
+3. [Technology Stack](#3-technology-stack)
+4. [Environment Setup](#4-environment-setup)
+5. [Liquibase Installation](#5-liquibase-installation)
+6. [PostgreSQL Database Setup](#6-postgresql-database-setup)
+7. [Project Structure](#7-project-structure)
+8. [Creating Initial Changelog](#8-creating-initial-changelog)
+9. [Running First Migration](#9-running-first-migration)
+10. [DATABASECHANGELOG Verification](#10-databasechangelog-verification)
+11. [Adding Incremental Changes](#11-adding-incremental-changes)
+12. [Rollback Demonstration](#12-rollback-demonstration)
+13. [Preconditions Demonstration](#13-preconditions-demonstration)
+14. [Checksum Validation](#14-checksum-validation)
+15. [CI/CD Integration](#15-cicd-integration)
+16. [Relational Database Testing](#16-relational-database-testing)
+17. [Non-Relational Database Testing](#17-non-relational-database-testing)
+18. [Performance Observation](#18-performance-observation)
+19. [Challenges Faced](#19-challenges-faced)
+20. [Final Findings](#20-final-findings)
+21. [Recommendation](#21-recommendation)
 
 ---
 
