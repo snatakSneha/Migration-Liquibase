@@ -561,21 +561,10 @@ Purpose:
 * Validate migration integrity
 * Prevent unauthorized modification
 
----
-
-## Screenshot Required
-
-### Screenshot 12 — Checksum Validation Error
-
-Attach screenshot of checksum mismatch error.
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Checksum Validation]
-```
+<img width="1857" height="1046" alt="image" src="https://github.com/user-attachments/assets/253c2824-a592-4a77-a5f4-1806662c8b30" />
 
 ---
+
 
 # 15. CI/CD Integration
 
@@ -600,23 +589,7 @@ stage('Liquibase Migration') {
   run: liquibase update
 ```
 
----
 
-## Screenshot Required
-
-### Screenshot 13 — CI/CD Pipeline
-
-Attach screenshot showing:
-
-* Jenkins pipeline execution
-  OR
-* GitHub Actions workflow execution
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — CI/CD Integration]
-```
 
 ---
 
@@ -640,22 +613,7 @@ Attach screenshot showing:
 * Transactions
 * Tracking tables
 
----
 
-## Screenshot Required
-
-### Screenshot 14 — Relational Database Testing
-
-Attach screenshots of:
-
-* PostgreSQL execution
-* MySQL execution
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Relational Database Testing]
-```
 
 ---
 
@@ -677,22 +635,7 @@ Liquibase MongoDB extension tested for:
 * Less mature ecosystem
 * Fewer enterprise features
 
----
 
-## Screenshot Required
-
-### Screenshot 15 — MongoDB Testing
-
-Attach screenshots showing:
-
-* MongoDB collections
-* MongoDB migration execution
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — MongoDB Testing]
-```
 
 ---
 
@@ -783,7 +726,6 @@ Liquibase successfully created:
 Liquibase executed only new changesets.
 
 Validated behavior:
-![Uploading Screenshot from 2026-05-17 15-18-51.png…]()
 
 ```text
 Only unapplied changesets execute.
@@ -894,3 +836,7 @@ Liquibase demonstrates strong enterprise capabilities for:
 For relational databases, Liquibase is highly mature and enterprise-ready.
 
 For non-relational databases, Liquibase support exists but may require additional customization and evaluation depending on project requirements.
+
+
+By
+Sneha Joshi & Rehan Ali
