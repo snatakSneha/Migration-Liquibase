@@ -97,9 +97,6 @@ Install the following:
 
 ---
 
-## Screenshot Required
-
-### Screenshot 1 — Installed Tools Verification
 
 Attach screenshot showing:
 
@@ -109,11 +106,8 @@ mvn -version
 liquibase --version
 ```
 
-### Place Screenshot Here
+<img width="1854" height="951" alt="image" src="https://github.com/user-attachments/assets/d3d8026d-3a9f-460d-8ab1-2d83e9adfd9d" />
 
-```text
-[Attach Screenshot Here — Installed Tools]
-```
 
 ---
 
@@ -149,25 +143,10 @@ driver=org.postgresql.Driver
 changeLogFile=db/changelog/master.xml
 ```
 
----
-
-## Screenshot Required
-
-### Screenshot 2 — Liquibase Installation
-
-Attach screenshot of:
-
-* Liquibase installed successfully
-* liquibase.properties file
-* Project dependencies
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — Liquibase Installation]
-```
 
 ---
+
+
 
 # 6. PostgreSQL Database Setup
 
@@ -188,26 +167,9 @@ During installation:
 * Keep default port:
 
 ```text
-5432
+port-5432
 ```
 
----
-
-## Screenshot Required
-
-### Screenshot 3 — PostgreSQL Installation
-
-Attach screenshot showing:
-
-* PostgreSQL installed successfully
-* pgAdmin dashboard
-* PostgreSQL service running
-
-### Place Screenshot Here
-
-```text
-[Attach Screenshot Here — PostgreSQL Installation]
-```
 
 ---
 
@@ -883,6 +845,10 @@ The following database objects were successfully validated during the POC:
 
 * employee
 
+  
+<img width="1855" height="1053" alt="Screenshot from 2026-05-17 15-11-50" src="https://github.com/user-attachments/assets/e2ffefab-a4db-48bb-b006-aa530e519b1e" />
+
+
 ### Validated Columns
 
 * id
@@ -902,6 +868,8 @@ Liquibase successfully created:
 * DATABASECHANGELOG
 * DATABASECHANGELOGLOCK
 
+<img width="1855" height="681" alt="Screenshot from 2026-05-17 15-18-51" src="https://github.com/user-attachments/assets/d3b7612e-8cc4-4a28-8c8b-5be11c268d2d" />
+
 ---
 
 ### Incremental Migration Validation
@@ -909,10 +877,12 @@ Liquibase successfully created:
 Liquibase executed only new changesets.
 
 Validated behavior:
+![Uploading Screenshot from 2026-05-17 15-18-51.png…]()
 
 ```text
 Only unapplied changesets execute.
 ```
+<img width="1855" height="681" alt="Screenshot from 2026-05-17 15-17-43" src="https://github.com/user-attachments/assets/3b674e06-1e8e-4db1-a022-b0fbdbd74695" />
 
 ---
 
@@ -925,6 +895,9 @@ email column
 ```
 
 Liquibase safely reverted schema changes.
+
+<img width="1857" height="481" alt="Screenshot from 2026-05-17 15-30-19" src="https://github.com/user-attachments/assets/a07b15e1-d328-435e-8be8-42f94ce33c3b" /><img width="1845" height="1054" alt="Screenshot from 2026-05-17 15-19-51" src="https://github.com/user-attachments/assets/1db67bec-e311-405a-a6a2-d9462ee477ed" />
+
 
 ---
 
@@ -939,6 +912,9 @@ employee table existence
 before applying migration.
 
 This demonstrates conditional execution support.
+
+
+<img width="1848" height="1004" alt="Screenshot from 2026-05-17 15-38-36" src="https://github.com/user-attachments/assets/37fee7a4-39c3-4b73-b6cf-daecbd149138" />
 
 ---
 
